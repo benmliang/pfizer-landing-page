@@ -1,0 +1,54 @@
+{
+  "name": "pfizer-landing-page",
+  "version": "0.1.0",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "standardx --fix 'src/**/*.jsx' 'src/**/*.js'",
+    "test": "jest --watch",
+    "check": "tsc --noEmit && yarn lint"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.11",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.53",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-react": "^7.19.0",
+    "next": "^9.4.0",
+    "query-string": "^6.12.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.22",
+    "@types/react-dom": "^16.9.5",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "babel-jest": "^26.0.1",
+    "eslint-plugin-react-hooks": "^4.0.5",
+    "jest": "^26.0.1",
+    "standardx": "^5.0.0",
+    "typescript": "^3.8.2"
+  },
+  "eslintConfig": {
+    "rules": {
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": "error",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn"
+    }
+  },
+  "standardx": {
+    "env": [
+      "jest"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint/eslint-plugin",
+      "react-hooks"
+    ]
+  }
+}
