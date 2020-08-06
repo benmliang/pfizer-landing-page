@@ -1,4 +1,5 @@
-# Sherlock
+# Pfizer Landing Page
+
 Solutions that provide investigators with better context for their research, enable more timely closure of investigations and reduce the number of repeat investigations.
 
 ## Getting Started
